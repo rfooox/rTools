@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 from rTools.config import __version__, __author__, __email__
 
 setup(
-    name='rTools',
+    name='r-tools',
     version=__version__,
     author=__author__,
     author_email=__email__,
-    keywords=['rTools', 'tools'],
+    keywords=['rTools', 'tools', 'r-rools'],
     description='A cli tools to do everything.',
     long_description="""
     rfooox's Tools
@@ -23,6 +23,7 @@ setup(
         'console_scripts': [
             'rtools = rTools.main:cli',
             'rTools = rTools.main:cli',
+            'r-tools = rTools.main:cli',
         ]
     }
 )
